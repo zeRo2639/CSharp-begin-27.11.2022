@@ -1,8 +1,8 @@
-﻿int a = 1, b = 2;
+﻿int a = 10, b = 67; 
 int max = a;
 
-if (b > max) 
+if (b > max)
 {
-max = b;
+    max = b;
 }
 Console.WriteLine(max);
