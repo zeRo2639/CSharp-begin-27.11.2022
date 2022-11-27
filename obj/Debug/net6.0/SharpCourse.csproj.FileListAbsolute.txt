@@ -1,0 +1,15 @@
+D:\Desktop\SharpCourse\bin\Debug\net6.0\SharpCourse.exe
+D:\Desktop\SharpCourse\bin\Debug\net6.0\SharpCourse.deps.json
+D:\Desktop\SharpCourse\bin\Debug\net6.0\SharpCourse.runtimeconfig.json
+D:\Desktop\SharpCourse\bin\Debug\net6.0\SharpCourse.dll
+D:\Desktop\SharpCourse\bin\Debug\net6.0\SharpCourse.pdb
+D:\Desktop\SharpCourse\obj\Debug\net6.0\SharpCourse.csproj.AssemblyReference.cache
+D:\Desktop\SharpCourse\obj\Debug\net6.0\SharpCourse.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\SharpCourse\obj\Debug\net6.0\SharpCourse.AssemblyInfoInputs.cache
+D:\Desktop\SharpCourse\obj\Debug\net6.0\SharpCourse.AssemblyInfo.cs
+D:\Desktop\SharpCourse\obj\Debug\net6.0\SharpCourse.csproj.CoreCompileInputs.cache
+D:\Desktop\SharpCourse\obj\Debug\net6.0\SharpCourse.dll
+D:\Desktop\SharpCourse\obj\Debug\net6.0\refint\SharpCourse.dll
+D:\Desktop\SharpCourse\obj\Debug\net6.0\SharpCourse.pdb
+D:\Desktop\SharpCourse\obj\Debug\net6.0\SharpCourse.genruntimeconfig.cache
+D:\Desktop\SharpCourse\obj\Debug\net6.0\ref\SharpCourse.dll
