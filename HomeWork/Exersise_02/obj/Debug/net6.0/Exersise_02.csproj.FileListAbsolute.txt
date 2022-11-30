@@ -1,0 +1,15 @@
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\obj\Debug\net6.0\Exersise_02.csproj.AssemblyReference.cache
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\obj\Debug\net6.0\Exersise_02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\obj\Debug\net6.0\Exersise_02.AssemblyInfoInputs.cache
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\obj\Debug\net6.0\Exersise_02.AssemblyInfo.cs
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\obj\Debug\net6.0\Exersise_02.csproj.CoreCompileInputs.cache
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\bin\Debug\net6.0\Exersise_02.exe
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\bin\Debug\net6.0\Exersise_02.deps.json
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\bin\Debug\net6.0\Exersise_02.runtimeconfig.json
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\bin\Debug\net6.0\Exersise_02.dll
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\bin\Debug\net6.0\Exersise_02.pdb
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\obj\Debug\net6.0\Exersise_02.dll
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\obj\Debug\net6.0\refint\Exersise_02.dll
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\obj\Debug\net6.0\Exersise_02.pdb
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\obj\Debug\net6.0\Exersise_02.genruntimeconfig.cache
+D:\Desktop\SharpCourse\HomeWork\Exersise_02\obj\Debug\net6.0\ref\Exersise_02.dll
