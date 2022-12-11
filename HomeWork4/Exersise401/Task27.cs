@@ -1,3 +1,3 @@
-﻿Exersise401.Task27();
+﻿// Exersise401.Task27();
 
 
