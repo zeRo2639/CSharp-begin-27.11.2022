@@ -34,7 +34,7 @@ public static class Methods
     {
         result += value[i]*Pow(15, count - 1 - i);
     }
-    return 0;
+    return result;
     }
    
 // Напишите цикл, который возводит число A в натуральную степень B. 
