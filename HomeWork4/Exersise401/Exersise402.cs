@@ -1,6 +1,6 @@
 public static class Exersise402
 {
-    static public void Task25()
+    public static void Task25()
     {
     Console.WriteLine("Введите число А: ");
     int a = Convert.ToInt32(Console.ReadLine());
