@@ -11,7 +11,7 @@ public static class Methods
     {
         for (int i = 0; i < array.Length; i++)
         {
-            array[i] = Random.Shared.Next(1, 5);
+            array[i] = Random.Shared.Next(1, 10);
         }
     }
     // Метод заполнения массива min max
@@ -21,18 +21,18 @@ public static class Methods
         {
             array[i] = new Random().Next(min, max);
         }
-    } 
+    }
     // Печать массива
     public static string Print(int[] array)
     {
         return String.Join(' ', array);
     }
-// Печать массива 
-    public static void PrintArray (int[] array)
+    // Печать массива 
+    public static void PrintArray(int[] array)
     {
-        for (int i = 0; i<array.Length; i++ )
+        for (int i = 0; i < array.Length; i++)
         {
-        Console.Write(array[i] + " ");
+            Console.Write(array[i] + " ");
         }
     }
     // написать конвертор из 15-ой в 10-ую 
@@ -100,6 +100,19 @@ public static class Methods
             }
         }
         return odd;
+    }
+    // метод вывода суммы элементов массива, стоящих на нечетных позициях
+    public static int SumOddNumbers(int[] array)
+    {
+        int sum = 0;
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (i % 2 == 1)
+            {
+                sum = sum + array[i];
+            }
+        }
+        return sum;
     }
 }
 
