@@ -1,11 +1,16 @@
 public static class Methods
 {
-    // Создание массива
+    // Создание целых чисел массива
     public static int[] CreateArray(int count)
     {
         return new int[count];
     }
 
+    // Создание массива вещественных чисел
+    public static double [] CreateArrayRealNumbers(int count)
+    {
+        return new double[count];
+    }
     // Заполнение массива
     public static void Fill(int[] array)
     {
@@ -24,6 +29,15 @@ public static class Methods
         }
     }
     
+    // Заполнение массива вещественными числами.
+    public static void FillArrayRealNumbers(double[] array, int min, int max)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            array[i] = new Random().Next(min, max);
+        }
+    } 
+
     // Печать массива для стринга
     public static string Print(int[] array)
     {
@@ -134,6 +148,8 @@ public static class Methods
         }
         return sum;
     }
+
+
 }
 
 
