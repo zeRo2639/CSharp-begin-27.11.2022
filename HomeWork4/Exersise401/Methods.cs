@@ -75,7 +75,7 @@ public static class Methods
         return Number;
     }
 
-    //     метод вывода количества чётных чисел в массиве.
+    //     метод вывода чётных чисел в массиве.
     public static int EvenNumbers(int[] array)
     {
         int even = 0;
@@ -88,7 +88,21 @@ public static class Methods
         }
         return even;
     }
+    // методод вывода нечетных чисел в массиве
+    public static int OddNumbers(int[] array)
+    {
+        int odd = 0;
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (array[i] % 2 == 0)
+            {
+                odd++;
+            }
+        }
+        return odd;
+    }
 }
+
 
 
 
