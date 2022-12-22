@@ -27,7 +27,14 @@ public static class Methods
     {
         return String.Join(' ', array);
     }
-
+// Печать массива 
+    public static void PrintArray (int[] array)
+    {
+        for (int i = 0; i<array.Length; i++ )
+        {
+        Console.Write(array[i] + " ");
+        }
+    }
     // написать конвертор из 15-ой в 10-ую 
     // [6,4,3,10]
     //  3 2 1  0 - индексы чисел в математике справа на лево

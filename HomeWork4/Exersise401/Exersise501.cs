@@ -1,23 +1,16 @@
-// public static class Exersise501
-//      public static void Task 34()
-//     {
-        // заполнение массива случайными положительными 
-// трехзначными числами
-//    int [] CreateArrayThreeDigitNumber (int count)
-//    {
-//     return new int[count];
-//    }
-//    void FillArrayThreeDigitNumber (int [] array, int min, int max)
-//     {
-//         int size = array.Length;
-//         for (int i = 0; i < size; i++)
-//         {
-//             array[i] = new Random().Next(min, max);
-//         }
-//     }
-//     Console.ReadLine();
-    
-
+public static class Exersise501
+{
+        public static void Task34()
+        {
+        int [] array = new int[10]; 
+        Methods.FillArray(array, 100, 1000);
+        Methods.EvenNumbers(array);
+        Methods.PrintArray(array);
+        Console.WriteLine();
+        int even = Methods.EvenNumbers(array);
+        Console.WriteLine($"Количество чётных чисел в массиве: {even}");
+        }
+}
 
 // Задача 34: Задайте массив заполненный случайными положительными 
 // трёхзначными числами. Напишите программу, 
