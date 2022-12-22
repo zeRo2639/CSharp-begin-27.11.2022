@@ -14,6 +14,7 @@ public static class Methods
             array[i] = Random.Shared.Next(1, 10);
         }
     }
+   
     // Метод заполнения массива min max
     public static void FillArray(int[] array, int min, int max)
     {
@@ -22,12 +23,14 @@ public static class Methods
             array[i] = new Random().Next(min, max);
         }
     }
-    // Печать массива
+    
+    // Печать массива для стринга
     public static string Print(int[] array)
     {
         return String.Join(' ', array);
     }
-    // Печать массива 
+    
+    // Печать численного массива 
     public static void PrintArray(int[] array)
     {
         for (int i = 0; i < array.Length; i++)
@@ -35,6 +38,7 @@ public static class Methods
             Console.Write(array[i] + " ");
         }
     }
+    
     // написать конвертор из 15-ой в 10-ую 
     // [6,4,3,10]
     //  3 2 1  0 - индексы чисел в математике справа на лево
@@ -75,7 +79,7 @@ public static class Methods
         return Number;
     }
 
-    //     метод вывода чётных чисел в массиве.
+    // метод вывода количества чётных чисел в массиве.
     public static int EvenNumbers(int[] array)
     {
         int even = 0;
@@ -88,7 +92,8 @@ public static class Methods
         }
         return even;
     }
-    // методод вывода нечетных чисел в массиве
+    
+    // методод вывода количества нечетных чисел в массиве
     public static int OddNumbers(int[] array)
     {
         int odd = 0;
@@ -101,6 +106,7 @@ public static class Methods
         }
         return odd;
     }
+   
     // метод вывода суммы элементов массива, стоящих на нечетных позициях
     public static int SumOddNumbers(int[] array)
     {
@@ -108,6 +114,20 @@ public static class Methods
         for (int i = 0; i < array.Length; i++)
         {
             if (i % 2 == 1)
+            {
+                sum = sum + array[i];
+            }
+        }
+        return sum;
+    }
+   
+    // метод вывода суммы элементов массива, стоящих на четных позициях
+    public static int SumEvenNumbers(int[] array)
+    {
+        int sum = 0;
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (i % 2 == 0)
             {
                 sum = sum + array[i];
             }
