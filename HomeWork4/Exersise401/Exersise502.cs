@@ -10,6 +10,6 @@ public static class Exersise502
         Methods.PrintArray(array);
         Console.WriteLine();
         int sum = Methods.SumOddNumbers(array);
-        Console.WriteLine($"Сумма нечетных чисел в массиве: {sum}");
+        Console.WriteLine($"Сумма элементов, стоящих на нечетных позициях в массиве равна: {sum}");
     }
 }
