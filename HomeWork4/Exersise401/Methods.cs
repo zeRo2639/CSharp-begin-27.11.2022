@@ -19,7 +19,26 @@ public static class Methods
             array[i] = Random.Shared.Next(1, 10);
         }
     }
-
+    // Метод заполнения массива путем ввода чисел пользователем с клавиатуры
+    public static void InputNumbers(int m) // Создаем метод для ручного ввода чисел
+    {
+        int[] size = new int[m];
+        for (int i = 0; i < m; i++)  // i - счетчик введеннных чисел; i < m - диапазон ввода чисел, т.е. количество вводимых чисел пользователем не должно превышать уже заданного допустимого количества чисел в массиве   
+        {
+            Console.Write($"Введите число {i + 1}: ");
+            size[i] = Convert.ToInt32(Console.ReadLine());
+        }
+    }
+    // Метод заполнения массива вручную натуральными числами 
+    public static int Sravni(int[] size)
+        {
+            int Numbers = 0;
+            for (int i = 0; i < size.Length; i++)
+            {
+                if (size[i] > 0) Numbers++;
+            }
+            return Numbers;
+        }
     // Метод заполнения массива min max
     public static void FillArray(int[] array, int min, int max)
     {
